@@ -1,0 +1,120 @@
+body {
+    background-image: url('C:/Users/abdul/OneDrive/Desktop/codes lol/backiee-298819-landscape.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    color: #c4c4c4;
+}
+
+header {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 5px 20px;
+    height: 45px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: line-through;
+    color: rgb(223, 207, 207);
+    position: relative;
+    left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: none;
+}
+nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    text-decoration: none;
+}
+nav a {
+    color: rgb(255, 255, 255); 
+    transition: color 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(233, 36, 10);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container {
+    padding: 20px 40px;
+    border-radius: 18px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 350px;
+    border: 1px solid rgba(225, 225, 225, 0.2);
+    backdrop-filter: blur(50px);
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    text-align: left;
+    background: rgba(225, 225, 225, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+label {
+    font-weight: bold;
+    width: 35%;
+    text-align: right;
+    margin-right: 10px;
+}
+
+input {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: rgba(225, 225, 225, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #008CBA;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #005f75;
+}
